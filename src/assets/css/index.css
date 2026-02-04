@@ -65,12 +65,23 @@ header {
 }
 
 .links {
-  width: 400px;
-  height: 200px;
+  min-height: 200px;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 13px;
+}
+
+.comics > ul,
+.shop > ul,
+.policy > ul,
+.sites > ul {
+  padding-left: 0;
 }
 
 #socials {
-  height: 200px;
+  min-height: 100px;
   color: white;
 }
 
@@ -81,13 +92,19 @@ header {
 
 #socials > div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+#social-media {
+  display: flex;
+  align-items: center;
 }
 
 #social-media > ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 #social-media > ul > li {
@@ -96,4 +113,13 @@ header {
 }
 
 button {
+  height: 55px;
+  width: 150px;
+  color: white;
+  background-color: transparent;
+}
+
+#social-media > ul > li > img {
+  width: 40px;
+  height: 40px;
 }
