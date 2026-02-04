@@ -52,6 +52,12 @@ header {
   line-height: 150px;
 }
 
+p {
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
 .col > img {
   height: 50px;
   width: 40px;
