@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="bg-img">
-            <img src="../../public/dc-logo-bg.png" alt="" />
+            <img src="/public/dc-logo-bg.png" alt="" />
           </div>
         </div>
       </section>

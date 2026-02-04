@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header>
       <div id="dc-logo" className="py-3">
-        <img src="../../public/dc-logo.png" alt="dc-logo" />
+        <img src="/public/dc-logo.png" alt="dc-logo" />
       </div>
       <div id="navbar" className="">
         <ul>

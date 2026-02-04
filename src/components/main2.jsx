@@ -5,7 +5,7 @@ export default function Main2() {
         <div className="row row-cols-5">
           <div className="col">
             <img
-              src="../../public/buy-comics-digital-comics.png"
+              src="/public/buy-comics-digital-comics.png"
               alt=""
               className="mx-2"
             />
@@ -13,7 +13,7 @@ export default function Main2() {
           </div>
           <div className="col">
             <img
-              src="../../public/buy-comics-merchandise.png"
+              src="/public/buy-comics-merchandise.png"
               alt=""
               className="mx-2 t-shirt"
             />
@@ -21,7 +21,7 @@ export default function Main2() {
           </div>
           <div className="col">
             <img
-              src="../../public/buy-comics-subscriptions.png"
+              src="/public/buy-comics-subscriptions.png"
               alt=""
               className="mx-2"
             />
@@ -29,18 +29,14 @@ export default function Main2() {
           </div>
           <div className="col">
             <img
-              src="../../public/buy-comics-shop-locator.png"
+              src="/public/buy-comics-shop-locator.png"
               alt=""
               className="mx-2 shop-location"
             />
             COMIC SHOP LOCATOR
           </div>
           <div className="col">
-            <img
-              src="../../public/buy-dc-power-visa.svg"
-              alt=""
-              className="mx-2"
-            />
+            <img src="/public/buy-dc-power-visa.svg" alt="" className="mx-2" />
             DC POWER VISA
           </div>
         </div>
