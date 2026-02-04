@@ -8,44 +8,46 @@ export default function Footer() {
               <div className="comics">
                 <h1 className="fs-4">DC COMICS</h1>
                 <ul>
-                  <li className="text-start opacity-50">item</li>
-                  <li className="text-start opacity-50">item</li>
-                  <li className="text-start opacity-50">item</li>
-                  <li className="text-start opacity-50">item</li>
-                  <li className="text-start opacity-50">item</li>
-                  <li className="text-start opacity-50">item</li>
-                  <li className="text-start opacity-50">item</li>
+                  <li className="text-start opacity-50">Characters</li>
+                  <li className="text-start opacity-50">Comics</li>
+                  <li className="text-start opacity-50">Movies</li>
+                  <li className="text-start opacity-50">TV</li>
+                  <li className="text-start opacity-50">Games</li>
+                  <li className="text-start opacity-50">Videos</li>
+                  <li className="text-start opacity-50">News</li>
                 </ul>
               </div>
               <div className="shop">
                 <h1 className="fs-4 text-start">SHOP</h1>
                 <ul>
-                  <li className="text-start opacity-50">item</li>
-                  <li className="text-start opacity-50">item</li>
+                  <li className="text-start opacity-50">Shop DC</li>
+                  <li className="text-start opacity-50">
+                    Shop DC Collectibles
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="policy">
-              <h1 className="fs-4 pl-4">DC</h1>
+              <h1 className="fs-4 pl-4 text-start">DC</h1>
               <ul>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
+                <li className="text-start opacity-50">Terms Of Use</li>
+                <li className="text-start opacity-50">Privacy Policy (New)</li>
+                <li className="text-start opacity-50">Ad Choices</li>
+                <li className="text-start opacity-50">Advertising</li>
+                <li className="text-start opacity-50">Jobs</li>
+                <li className="text-start opacity-50">Subscriptions</li>
+                <li className="text-start opacity-50">Talent Workshops</li>
+                <li className="text-start opacity-50">CPSC Certificates</li>
+                <li className="text-start opacity-50">Ratings</li>
+                <li className="text-start opacity-50">Shop Help</li>
+                <li className="text-start opacity-50">Contact Us</li>
               </ul>
             </div>
             <div className="sites">
-              <h1 className="fs-4 pl-4">SITES</h1>
+              <h1 className="fs-4 pl-4 text-start">SITES</h1>
               <ul>
-                <li className="text-start opacity-50">item</li>
-                <li className="text-start opacity-50">item</li>
+                <li className="text-start opacity-50">DC</li>
+                <li className="text-start opacity-50">MAD Magazine</li>
                 <li className="text-start opacity-50">DC Kids</li>
                 <li className="text-start opacity-50">DC Universe</li>
                 <li className="text-start opacity-50">DC Power Visa</li>
@@ -65,7 +67,7 @@ export default function Footer() {
             </button>
           </div>
           <div id="social-media">
-            <p className="text-primary fw-bold w-100">FOLLOW US</p>
+            <p className="text-primary fw-bold w-100 fs-4">FOLLOW US</p>
             <ul>
               <li>
                 <img src="/footer-facebook.png" alt="" />
