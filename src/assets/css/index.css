@@ -1,0 +1,26 @@
+/** Header **/
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+#navbar {
+  display: flex;
+}
+
+#navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+
+#dc-logo > img {
+  height: 60px;
+  width: 60px;
+}
+
+#navbar > ul > li {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
