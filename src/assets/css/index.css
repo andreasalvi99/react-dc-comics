@@ -24,3 +24,22 @@ header {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
 }
+
+/** Main **/
+
+#contents > div {
+  color: white;
+  min-height: 150px;
+  line-height: 150px;
+}
+
+#adds-on > div {
+  color: white;
+  min-height: 150px;
+  line-height: 150px;
+}
+
+.col > img {
+  height: 50px;
+  width: 40px;
+}
