@@ -47,6 +47,14 @@ header {
   width: 40px;
 }
 
+.col > .shop-location {
+  height: 55px;
+}
+
+.col > .t-shirt {
+  width: 50px;
+}
+
 /** Footer **/
 
 #about-us {
