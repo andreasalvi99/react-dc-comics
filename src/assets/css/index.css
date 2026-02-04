@@ -1,3 +1,7 @@
+/** Reset **/
+ul {
+  list-style: none;
+}
 /** Header **/
 header {
   display: flex;
@@ -11,7 +15,6 @@ header {
 #navbar > ul {
   display: flex;
   justify-content: space-between;
-  list-style: none;
   width: 100%;
 }
 
@@ -42,4 +45,55 @@ header {
 .col > img {
   height: 50px;
   width: 40px;
+}
+
+/** Footer **/
+
+#about-us {
+  background-image: url(../img/footer-bg.jpg);
+  height: 400px;
+  background-position: top;
+  background-size: cover;
+}
+
+#about-us > div {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.links {
+  width: 400px;
+  height: 200px;
+}
+
+#socials {
+  height: 200px;
+  color: white;
+}
+
+.bg-img > img {
+  height: 600px;
+  width: 600px;
+}
+
+#socials > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#social-media > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#social-media > ul > li {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+button {
 }
