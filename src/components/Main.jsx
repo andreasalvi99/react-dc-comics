@@ -179,7 +179,9 @@ export default function Main() {
   return (
     <main>
       <section id="contents" className="bg-black">
-        <div id="jumbotron"></div>
+        <div id="jumbotron">
+          <button>CURRENT SERIES</button>
+        </div>
         <div className="container text-center py-5" id="comics">
           <div className="row row-cols-6 g-3">
             {comics.map((comic) => (

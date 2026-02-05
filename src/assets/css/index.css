@@ -49,6 +49,19 @@ header {
   background-position: top;
   background-size: cover;
   min-height: 400px;
+  position: relative;
+}
+
+#jumbotron > button {
+  position: absolute;
+  background-color: #0282f9;
+  font-size: 23px;
+  font-weight: bolder;
+  width: 250px;
+  border: none;
+  height: 60px;
+  bottom: 0;
+  transform: translate(50%, 50%);
 }
 
 #comics > button {
