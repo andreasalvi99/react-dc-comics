@@ -40,9 +40,16 @@ header {
 
 /** Main **/
 
+#jumbotron {
+  background-image: url(../../../public/jumbotron.jpg);
+  background-position: top;
+  background-size: cover;
+  min-height: 400px;
+}
+
 #contents > div {
   color: white;
-  min-height: 150px;
+  /* min-height: 150px; */
   line-height: 150px;
 }
 
