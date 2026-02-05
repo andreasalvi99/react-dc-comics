@@ -60,8 +60,16 @@ export default function Header() {
       <div id="navbar" className="">
         <ul>
           {navbarLinks.map((link, index) => (
-            <li key={index}>
-              <a href={link.url}>{link.title}</a>
+            <li
+              key={index}
+              className={"" + (link.isActive ? " active-bar" : "")}
+            >
+              <a
+                href={link.url}
+                className={"" + (link.isActive ? " active" : "")}
+              >
+                {link.title}
+              </a>
             </li>
           ))}
         </ul>
