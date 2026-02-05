@@ -2,42 +2,52 @@ const navbarLinks = [
   {
     title: "CHARACTERS",
     URL: "#",
+    isActive: false,
   },
   {
     title: "COMICS",
     URL: "#",
+    isActive: true,
   },
   {
     title: "MOVIES",
     URL: "#",
+    isActive: false,
   },
   {
     title: "TV",
     URL: "#",
+    isActive: false,
   },
   {
     title: "GAMES",
     URL: "#",
+    isActive: false,
   },
   {
     title: "COLLECTIBLES",
     URL: "#",
+    isActive: false,
   },
   {
     title: "VIDEOS",
     URL: "#",
+    isActive: false,
   },
   {
     title: "FANS",
     URL: "#",
+    isActive: false,
   },
   {
     title: "NEWS",
     URL: "#",
+    isActive: false,
   },
   {
     title: "SHOP",
     URL: "#",
+    isActive: false,
   },
 ];
 

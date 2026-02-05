@@ -31,12 +31,16 @@ export default function Main2() {
             <img
               src="/public/buy-comics-shop-locator.png"
               alt=""
-              className="mx-2 shop-location"
+              className="mx-2"
             />
             COMIC SHOP LOCATOR
           </div>
           <div className="col">
-            <img src="/public/buy-dc-power-visa.svg" alt="" className="mx-2" />
+            <img
+              src="/public/buy-dc-power-visa.svg"
+              alt=""
+              className="mx-2 last-img"
+            />
             DC POWER VISA
           </div>
         </div>
