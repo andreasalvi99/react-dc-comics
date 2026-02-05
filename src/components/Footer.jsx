@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="links">
             <div className="info">
               <div className="comics">
-                <h1 className="fs-4">DC COMICS</h1>
+                <h1 className="fs-4 mb-3">DC COMICS</h1>
                 <ul>
                   <li className="text-start opacity-50">Characters</li>
                   <li className="text-start opacity-50">Comics</li>
@@ -18,7 +18,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="shop">
-                <h1 className="fs-4 text-start">SHOP</h1>
+                <h1 className="fs-4 text-start my-3">SHOP</h1>
                 <ul>
                   <li className="text-start opacity-50">Shop DC</li>
                   <li className="text-start opacity-50">
@@ -28,7 +28,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="policy">
-              <h1 className="fs-4 pl-4 text-start">DC</h1>
+              <h1 className="fs-4 pl-4 text-start mb-3">DC</h1>
               <ul>
                 <li className="text-start opacity-50">Terms Of Use</li>
                 <li className="text-start opacity-50">Privacy Policy (New)</li>
@@ -44,7 +44,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="sites">
-              <h1 className="fs-4 pl-4 text-start">SITES</h1>
+              <h1 className="fs-4 pl-4 text-start mb-3">SITES</h1>
               <ul>
                 <li className="text-start opacity-50">DC</li>
                 <li className="text-start opacity-50">MAD Magazine</li>
