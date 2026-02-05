@@ -101,8 +101,8 @@ header {
   object-position: top;
 }
 
-.row > .col:first-child img,
-.row > .col:last-child img {
+#comics > .row > .col:first-child img,
+#comics > .row > .col:last-child img {
   transform: scale(1.6) translateY(-10%);
   transform-origin: top center;
 }
