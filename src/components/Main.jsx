@@ -183,7 +183,7 @@ export default function Main() {
           <button>CURRENT SERIES</button>
         </div>
         <div className="container text-light text-center py-5" id="comics">
-          <div className="row row-cols-6 g-3">
+          <div className="row row-cols-6 g-4">
             {comics.map((comic) => (
               <div key={comic.id} className="col">
                 <figure className="wrapper">

@@ -54,7 +54,7 @@ header {
   border-bottom: 4px solid #0282f9;
 }
 
-a:hover {
+#navbar > ul > li:hover a {
   color: #0282f9;
 }
 
