@@ -10,12 +10,12 @@ export default function Header() {
           <li className="fw-bold">COMICS</li>
           <li className="fw-bold">MOVIES</li>
           <li className="fw-bold">TV</li>
-          <li className="fw-bold">SHOP</li>
-          <li className="fw-bold">NEWS</li>
-          <li className="fw-bold">FANS</li>
-          <li className="fw-bold">VIDEOS</li>
-          <li className="fw-bold">COLLECTIBLES</li>
           <li className="fw-bold">GAMES</li>
+          <li className="fw-bold">COLLECTIBLES</li>
+          <li className="fw-bold">VIDEOS</li>
+          <li className="fw-bold">FANS</li>
+          <li className="fw-bold">NEWS</li>
+          <li className="fw-bold">SHOP</li>
         </ul>
       </div>
     </header>
