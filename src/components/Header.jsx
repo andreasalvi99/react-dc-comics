@@ -1,3 +1,46 @@
+const navbarLinks = [
+  {
+    title: "CHARACTERS",
+    URL: "#",
+  },
+  {
+    title: "COMICS",
+    URL: "#",
+  },
+  {
+    title: "MOVIES",
+    URL: "#",
+  },
+  {
+    title: "TV",
+    URL: "#",
+  },
+  {
+    title: "GAMES",
+    URL: "#",
+  },
+  {
+    title: "COLLECTIBLES",
+    URL: "#",
+  },
+  {
+    title: "VIDEOS",
+    URL: "#",
+  },
+  {
+    title: "FANS",
+    URL: "#",
+  },
+  {
+    title: "NEWS",
+    URL: "#",
+  },
+  {
+    title: "SHOP",
+    URL: "#",
+  },
+];
+
 export default function Header() {
   return (
     <header>
@@ -6,16 +49,11 @@ export default function Header() {
       </div>
       <div id="navbar" className="">
         <ul>
-          <li className="fw-bold">CHARACTERS</li>
-          <li className="fw-bold">COMICS</li>
-          <li className="fw-bold">MOVIES</li>
-          <li className="fw-bold">TV</li>
-          <li className="fw-bold">GAMES</li>
-          <li className="fw-bold">COLLECTIBLES</li>
-          <li className="fw-bold">VIDEOS</li>
-          <li className="fw-bold">FANS</li>
-          <li className="fw-bold">NEWS</li>
-          <li className="fw-bold">SHOP</li>
+          {navbarLinks.map((link, index) => (
+            <li key={link.index}>
+              <a href={link.URL}>{link.title}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </header>
