@@ -177,17 +177,6 @@ const comics = [
 
 export default comics;
 
-const aboutUsPrimary = [
-  {
-    title: "DC COMICS",
-    links: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"],
-  },
-  {
-    title: "SHOP",
-    links: ["Shop DC", "Shop DC Collectibles"],
-  },
-];
-
 const aboutUsSecondary = [
   {
     title: "DC",

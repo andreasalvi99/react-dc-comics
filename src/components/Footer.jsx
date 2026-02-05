@@ -1,3 +1,26 @@
+const footerItems = [
+  {
+    title: "dc comics",
+    links: [
+      { name: "Characters", URL: "#" },
+      { name: "Comics", URL: "#" },
+      { name: "Movies", URL: "#" },
+      { name: "TV", URL: "#" },
+
+      { name: "Games", URL: "#" },
+      { name: "Videos", URL: "#" },
+      { name: "News", URL: "#" },
+    ],
+  },
+  {
+    title: "shop",
+    links: [
+      { name: "Shop DC", URL: "#" },
+      { name: "Shop DC Collectibles", URL: "#" },
+    ],
+  },
+];
+
 export default function Footer() {
   return (
     <footer>
@@ -5,6 +28,24 @@ export default function Footer() {
         <div className="container text-center">
           <div className="links">
             <div className="d-flex flex-column">
+              {footerItems.map((item, index) => {
+                return (
+                  <div key={index} className={item.title}>
+                    <h1 className="fs-4 my-3 fw-bold text-start">
+                      {item.title.toUpperCase()}
+                    </h1>
+                    <ul>
+                      {item.links.map((link, index) => {
+                        return (
+                          <li key={index} className="text-start opacity-50">
+                            <a href={link.url}>{link.name}</a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                );
+              })}
               {/* <div className="dc-comics">
                 <h1 className="fs-4 mb-3 fw-bold">DC COMICS</h1>
                 <ul>
