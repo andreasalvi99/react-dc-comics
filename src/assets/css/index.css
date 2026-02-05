@@ -79,6 +79,7 @@ header {
 
 #comics-img {
   width: 100%;
+  object-position: center;
 }
 
 .wrapper {
