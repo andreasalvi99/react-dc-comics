@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="container text-center">
           <div className="links">
             <div className="d-flex flex-column">
-              <div className="comics">
+              {/* <div className="dc-comics">
                 <h1 className="fs-4 mb-3 fw-bold">DC COMICS</h1>
                 <ul>
                   <li className="text-start opacity-50">Characters</li>
@@ -25,9 +25,9 @@ export default function Footer() {
                     Shop DC Collectibles
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
-            <div className="policy">
+            <div className="dc">
               <h1 className="fs-4 pl-4 text-start mb-3 fw-bold">DC</h1>
               <ul>
                 <li className="text-start opacity-50">Terms Of Use</li>
