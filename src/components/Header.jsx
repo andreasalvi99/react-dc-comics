@@ -1,52 +1,52 @@
 const navbarLinks = [
   {
     title: "CHARACTERS",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "COMICS",
-    URL: "#",
+    url: "#",
     isActive: true,
   },
   {
     title: "MOVIES",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "TV",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "GAMES",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "COLLECTIBLES",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "VIDEOS",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "FANS",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "NEWS",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
   {
     title: "SHOP",
-    URL: "#",
+    url: "#",
     isActive: false,
   },
 ];
@@ -61,7 +61,7 @@ export default function Header() {
         <ul>
           {navbarLinks.map((link, index) => (
             <li key={index}>
-              <a href={link.URL}>{link.title}</a>
+              <a href={link.url}>{link.title}</a>
             </li>
           ))}
         </ul>

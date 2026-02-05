@@ -176,26 +176,3 @@ const comics = [
 ];
 
 export default comics;
-
-const aboutUsSecondary = [
-  {
-    title: "DC",
-    links: [
-      "Terms Of Use",
-      "Privacy Policy (New)",
-      "Ad Choices",
-      "Advertising",
-      "Jobs",
-      "Subscriptions",
-      "Talent Workshops",
-      "CPSC Certificates",
-      "Ratings",
-      "Shop Help",
-      "Contact Us",
-    ],
-  },
-  {
-    title: "SITES",
-    links: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"],
-  },
-];

@@ -2,21 +2,51 @@ const footerItems = [
   {
     title: "dc comics",
     links: [
-      { name: "Characters", URL: "#" },
-      { name: "Comics", URL: "#" },
-      { name: "Movies", URL: "#" },
-      { name: "TV", URL: "#" },
+      { name: "Characters", url: "#" },
+      { name: "Comics", url: "#" },
+      { name: "Movies", url: "#" },
+      { name: "TV", url: "#" },
 
-      { name: "Games", URL: "#" },
-      { name: "Videos", URL: "#" },
-      { name: "News", URL: "#" },
+      { name: "Games", url: "#" },
+      { name: "Videos", url: "#" },
+      { name: "News", url: "#" },
     ],
   },
   {
     title: "shop",
     links: [
-      { name: "Shop DC", URL: "#" },
-      { name: "Shop DC Collectibles", URL: "#" },
+      { name: "Shop DC", url: "#" },
+      { name: "Shop DC Collectibles", url: "#" },
+    ],
+  },
+];
+
+const aboutUs = [
+  {
+    title: "dc",
+    links: [
+      { name: "Terms Of Use", url: "#" },
+
+      { name: "Privacy Policy (New)", url: "#" },
+      { name: "Ad Choices", url: "#" },
+      { name: "Advertising", url: "#" },
+      { name: "Jobs", url: "#" },
+      { name: "Subscriptions", url: "#" },
+      { name: "Talent Workshops", url: "#" },
+      { name: "CPSC Certificate", url: "#" },
+      { name: "Ratings", url: "#" },
+      { name: "Shop Help", url: "#" },
+      { name: "Contact Us", url: "#" },
+    ],
+  },
+  {
+    title: "sites",
+    links: [
+      { name: "DC", url: "#" },
+      { name: "MAD Magazine", url: "#" },
+      { name: "DC Kids", url: "#" },
+      { name: "DC Universe", url: "#" },
+      { name: "DC Power Visa", url: "#" },
     ],
   },
 ];
@@ -37,8 +67,13 @@ export default function Footer() {
                     <ul>
                       {item.links.map((link, index) => {
                         return (
-                          <li key={index} className="text-start opacity-50">
-                            <a href={link.url}>{link.name}</a>
+                          <li key={index} className="text-start">
+                            <a
+                              href={link.url}
+                              className="text-white opacity-50"
+                            >
+                              {link.name}
+                            </a>
                           </li>
                         );
                       })}
@@ -46,54 +81,27 @@ export default function Footer() {
                   </div>
                 );
               })}
-              {/* <div className="dc-comics">
-                <h1 className="fs-4 mb-3 fw-bold">DC COMICS</h1>
-                <ul>
-                  <li className="text-start opacity-50">Characters</li>
-                  <li className="text-start opacity-50">Comics</li>
-                  <li className="text-start opacity-50">Movies</li>
-                  <li className="text-start opacity-50">TV</li>
-                  <li className="text-start opacity-50">Games</li>
-                  <li className="text-start opacity-50">Videos</li>
-                  <li className="text-start opacity-50">News</li>
-                </ul>
-              </div>
-              <div className="shop">
-                <h1 className="fs-4 text-start my-3 fw-bold">SHOP</h1>
-                <ul>
-                  <li className="text-start opacity-50">Shop DC</li>
-                  <li className="text-start opacity-50">
-                    Shop DC Collectibles
-                  </li>
-                </ul>
-              </div> */}
             </div>
-            <div className="dc">
-              <h1 className="fs-4 pl-4 text-start mb-3 fw-bold">DC</h1>
-              <ul>
-                <li className="text-start opacity-50">Terms Of Use</li>
-                <li className="text-start opacity-50">Privacy Policy (New)</li>
-                <li className="text-start opacity-50">Ad Choices</li>
-                <li className="text-start opacity-50">Advertising</li>
-                <li className="text-start opacity-50">Jobs</li>
-                <li className="text-start opacity-50">Subscriptions</li>
-                <li className="text-start opacity-50">Talent Workshops</li>
-                <li className="text-start opacity-50">CPSC Certificates</li>
-                <li className="text-start opacity-50">Ratings</li>
-                <li className="text-start opacity-50">Shop Help</li>
-                <li className="text-start opacity-50">Contact Us</li>
-              </ul>
-            </div>
-            <div className="sites">
-              <h1 className="fs-4 pl-4 text-start mb-3 fw-bold">SITES</h1>
-              <ul>
-                <li className="text-start opacity-50">DC</li>
-                <li className="text-start opacity-50">MAD Magazine</li>
-                <li className="text-start opacity-50">DC Kids</li>
-                <li className="text-start opacity-50">DC Universe</li>
-                <li className="text-start opacity-50">DC Power Visa</li>
-              </ul>
-            </div>
+            {aboutUs.map((item, index) => {
+              return (
+                <div key={index} className={item.title}>
+                  <h1 className="fs-4 pl-4 text-start my-3 fw-bold">
+                    {item.title.toUpperCase()}
+                  </h1>
+                  <ul>
+                    {item.links.map((link, index) => {
+                      return (
+                        <li key={index} className="text-start">
+                          <a href={link.url} className="text-white opacity-50">
+                            {link.name}
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              );
+            })}
           </div>
           <div className="bg-img">
             <img src="/public/dc-logo-bg.png" alt="" />
