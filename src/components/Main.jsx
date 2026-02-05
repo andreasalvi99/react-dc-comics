@@ -15,7 +15,7 @@ export default function Main() {
                   <img src={comic.thumb} alt={comic.title} />
                 </figure>
                 <p className="fs-6 fw-medium text-white opacity-75 py-2 text-start">
-                  {comic.series}
+                  {comic.series.toUpperCase()}
                 </p>
               </div>
             ))}
