@@ -182,20 +182,20 @@ export default function Main() {
         <div id="jumbotron">
           <button>CURRENT SERIES</button>
         </div>
-        <div className="container text-light py-5" id="comics">
+        <div className="container text-light text-center py-5" id="comics">
           <div className="row row-cols-6 g-3">
             {comics.map((comic) => (
               <div key={comic.id} className="col">
                 <figure className="wrapper">
                   <img src={comic.thumb} alt={comic.title} id="comics-img" />
                 </figure>
-                <p className="fs-6 fw-medium text-white opacity-75 py-2">
+                <p className="fs-6 fw-medium text-white opacity-75 py-2 text-start">
                   {comic.series}
                 </p>
               </div>
             ))}
           </div>
-          <button>LOAD MORE</button>
+          <button className="mt-5">LOAD MORE</button>
         </div>
       </section>
     </main>
