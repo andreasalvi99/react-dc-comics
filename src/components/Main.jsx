@@ -180,7 +180,7 @@ export default function Main() {
     <main>
       <section id="contents" className="bg-black">
         <div id="jumbotron"></div>
-        <div className="container text-start py-5" id="comics">
+        <div className="container text-center py-5" id="comics">
           <div className="row row-cols-6 g-3">
             {comics.map((comic) => (
               <div key={comic.id} className="col">
@@ -191,6 +191,7 @@ export default function Main() {
               </div>
             ))}
           </div>
+          <button className="btn btn-primary">LOAD MORE</button>
         </div>
       </section>
     </main>

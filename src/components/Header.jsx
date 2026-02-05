@@ -50,7 +50,7 @@ export default function Header() {
       <div id="navbar" className="">
         <ul>
           {navbarLinks.map((link, index) => (
-            <li key={link.index}>
+            <li key={index}>
               <a href={link.URL} className="text-black">
                 {link.title}
               </a>
