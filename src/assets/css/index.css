@@ -84,7 +84,7 @@ header {
   border: none;
   height: 60px;
   bottom: 0;
-  transform: translate(50%, 50%);
+  transform: translate(65%, 50%);
 }
 
 #comics > button {
