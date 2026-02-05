@@ -51,6 +51,13 @@ header {
   min-height: 400px;
 }
 
+#comics > button {
+  width: 250px;
+  background-color: #0282f9;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 #adds-on > div {
   color: white;
   min-height: 150px;
