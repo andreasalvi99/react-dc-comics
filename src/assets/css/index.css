@@ -71,7 +71,7 @@ header {
   background-image: url(../../../public/jumbotron.jpg);
   background-position: top;
   background-size: cover;
-  min-height: 400px;
+  min-height: 370px;
   position: relative;
 }
 
