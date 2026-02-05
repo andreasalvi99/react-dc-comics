@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Main2 from "./components/Main2";
+import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     <>
       <Header />
       <Main />
-      <Main2 />
+      <Banner />
       <Footer />
     </>
   );
