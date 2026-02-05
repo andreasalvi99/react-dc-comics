@@ -58,50 +58,39 @@ export default function Footer() {
         <div className="container text-center">
           <div className="links">
             <div className="d-flex flex-column">
-              {footerItems.map((item, index) => {
-                return (
-                  <div key={index} className={item.title}>
-                    <h1 className="fs-4 my-3 fw-bold text-start">
-                      {item.title.toUpperCase()}
-                    </h1>
-                    <ul>
-                      {item.links.map((link, index) => {
-                        return (
-                          <li key={index} className="text-start">
-                            <a
-                              href={link.url}
-                              className="text-white opacity-50"
-                            >
-                              {link.name}
-                            </a>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                );
-              })}
-            </div>
-            {aboutUs.map((item, index) => {
-              return (
+              {footerItems.map((item, index) => (
                 <div key={index} className={item.title}>
-                  <h1 className="fs-4 pl-4 text-start my-3 fw-bold">
+                  <h1 className="fs-4 my-3 fw-bold text-start">
                     {item.title.toUpperCase()}
                   </h1>
                   <ul>
-                    {item.links.map((link, index) => {
-                      return (
-                        <li key={index} className="text-start">
-                          <a href={link.url} className="text-white opacity-50">
-                            {link.name}
-                          </a>
-                        </li>
-                      );
-                    })}
+                    {item.links.map((link, index) => (
+                      <li key={index} className="text-start">
+                        <a href={link.url} className="text-white opacity-50">
+                          {link.name}
+                        </a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
-              );
-            })}
+              ))}
+            </div>
+            {aboutUs.map((item, index) => (
+              <div key={index} className={item.title}>
+                <h1 className="fs-4 pl-4 text-start my-3 fw-bold">
+                  {item.title.toUpperCase()}
+                </h1>
+                <ul>
+                  {item.links.map((link, index) => (
+                    <li key={index} className="text-start">
+                      <a href={link.url} className="text-white opacity-50">
+                        {link.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
           <div className="bg-img">
             <img src="/public/dc-logo-bg.png" alt="" />
