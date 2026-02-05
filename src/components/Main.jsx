@@ -187,7 +187,7 @@ export default function Main() {
             {comics.map((comic) => (
               <div key={comic.id} className="col">
                 <figure className="wrapper">
-                  <img src={comic.thumb} alt={comic.title} id="comics-img" />
+                  <img src={comic.thumb} alt={comic.title} />
                 </figure>
                 <p className="fs-6 fw-medium text-white opacity-75 py-2 text-start">
                   {comic.series}
