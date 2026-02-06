@@ -143,16 +143,10 @@ header {
 }
 
 .links {
-  display: flex;
   color: white;
-  justify-content: space-around;
   width: 35%;
   font-size: 13px;
-  gap: 2rem;
-  max-height: 350px;
-}
-
-.linkss {
+  gap: 35px;
   max-height: 350px;
 }
 

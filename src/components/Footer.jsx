@@ -3,7 +3,7 @@ export default function Footer({ items, infos }) {
     <footer>
       <section id="about-us">
         <div className="container text-center">
-          <div className="links d-flex flex-column text-white fs-6 flex-wrap gap-3 text-start justify-content-start">
+          <div className="links d-flex flex-column text-white fs-6 flex-wrap text-start justify-content-start">
             {items.map((item, index) => (
               <div key={index} className={item.title}>
                 <h1 className="fs-4 fw-bold text-start">
