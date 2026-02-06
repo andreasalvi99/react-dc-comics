@@ -19,6 +19,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 /** Header **/
 header {
   display: flex;
@@ -34,8 +35,6 @@ header {
 
 #navbar > ul {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
 }
 
 #dc-logo > img {
@@ -97,8 +96,11 @@ header {
 
 #adds-on > div {
   color: white;
-  min-height: 150px;
-  line-height: 150px;
+  line-height: 100px;
+}
+
+#adds-on p {
+  display: none;
 }
 
 .wrapper {
@@ -198,4 +200,12 @@ button {
 
 p {
   margin-bottom: 0;
+}
+
+/** MEDIA QUERIES **/
+
+@media all and (min-width: 1200px) {
+  #adds-on p {
+    display: inline-block;
+  }
 }

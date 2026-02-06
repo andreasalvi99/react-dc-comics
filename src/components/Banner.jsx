@@ -9,7 +9,7 @@ export default function Main2() {
               alt=""
               className="mx-2"
             />
-            DIGITAL COMICS
+            <p>DIGITAL COMICS</p>
           </div>
           <div className="col">
             <img
@@ -17,7 +17,7 @@ export default function Main2() {
               alt=""
               className="mx-2 t-shirt"
             />
-            DC MERCHANDISE
+            <p>DC MERCHANDISE</p>
           </div>
           <div className="col">
             <img
@@ -25,7 +25,7 @@ export default function Main2() {
               alt=""
               className="mx-2"
             />
-            SUBSCRIPTION
+            <p>SUBSCRIPTION</p>
           </div>
           <div className="col">
             <img
@@ -33,7 +33,7 @@ export default function Main2() {
               alt=""
               className="mx-2"
             />
-            COMIC SHOP LOCATOR
+            <p>SHOP LOCATOR</p>
           </div>
           <div className="col">
             <img
@@ -41,7 +41,7 @@ export default function Main2() {
               alt=""
               className="mx-2 last-img"
             />
-            DC POWER VISA
+            <p>DC POWER VISA</p>
           </div>
         </div>
       </div>
