@@ -155,7 +155,6 @@ header {
 }
 
 #socials {
-  min-height: 100px;
   color: white;
 }
 
@@ -176,8 +175,6 @@ header {
 
 #social-media > ul {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
   align-items: center;
 }
 
