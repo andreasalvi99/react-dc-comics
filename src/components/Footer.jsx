@@ -1,64 +1,11 @@
-const footerItems = [
-  {
-    title: "dc comics",
-    links: [
-      { name: "Characters", url: "#" },
-      { name: "Comics", url: "#" },
-      { name: "Movies", url: "#" },
-      { name: "TV", url: "#" },
-
-      { name: "Games", url: "#" },
-      { name: "Videos", url: "#" },
-      { name: "News", url: "#" },
-    ],
-  },
-  {
-    title: "shop",
-    links: [
-      { name: "Shop DC", url: "#" },
-      { name: "Shop DC Collectibles", url: "#" },
-    ],
-  },
-];
-
-const aboutUs = [
-  {
-    title: "dc",
-    links: [
-      { name: "Terms Of Use", url: "#" },
-
-      { name: "Privacy Policy (New)", url: "#" },
-      { name: "Ad Choices", url: "#" },
-      { name: "Advertising", url: "#" },
-      { name: "Jobs", url: "#" },
-      { name: "Subscriptions", url: "#" },
-      { name: "Talent Workshops", url: "#" },
-      { name: "CPSC Certificate", url: "#" },
-      { name: "Ratings", url: "#" },
-      { name: "Shop Help", url: "#" },
-      { name: "Contact Us", url: "#" },
-    ],
-  },
-  {
-    title: "sites",
-    links: [
-      { name: "DC", url: "#" },
-      { name: "MAD Magazine", url: "#" },
-      { name: "DC Kids", url: "#" },
-      { name: "DC Universe", url: "#" },
-      { name: "DC Power Visa", url: "#" },
-    ],
-  },
-];
-
-export default function Footer() {
+export default function Footer({ items, infos }) {
   return (
     <footer>
       <section id="about-us">
         <div className="container text-center">
           <div className="links">
             <div className="d-flex flex-column">
-              {footerItems.map((item, index) => (
+              {items.map((item, index) => (
                 <div key={index} className={item.title}>
                   <h1 className="fs-4 my-3 fw-bold text-start">
                     {item.title.toUpperCase()}
@@ -75,7 +22,7 @@ export default function Footer() {
                 </div>
               ))}
             </div>
-            {aboutUs.map((item, index) => (
+            {infos.map((item, index) => (
               <div key={index} className={item.title}>
                 <h1 className="fs-4 pl-4 text-start my-3 fw-bold">
                   {item.title.toUpperCase()}
