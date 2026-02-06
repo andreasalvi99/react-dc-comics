@@ -52,12 +52,12 @@ header {
   padding-top: 37px;
 }
 
-#navbar > ul > li:hover {
+#navbar li:hover {
   color: var(--primary-color);
   border-bottom: 4px solid var(--primary-color);
 }
 
-#navbar > ul > li:hover a {
+#navbar li:hover a {
   color: var(--primary-color);
 }
 
@@ -182,7 +182,7 @@ header {
   align-items: center;
 }
 
-#social-media > ul > li {
+#social-media li {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
 }
@@ -194,7 +194,7 @@ button {
   background-color: transparent;
 }
 
-#social-media > ul > li > img {
+#social-media img {
   width: 40px;
   height: 40px;
 }
