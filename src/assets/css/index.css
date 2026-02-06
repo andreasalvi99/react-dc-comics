@@ -103,7 +103,7 @@ header {
 
 .wrapper {
   overflow: hidden;
-  aspect-ratio: 1;
+  aspect-ratio: 8/13;
 }
 
 .wrapper img {
