@@ -139,12 +139,12 @@ header {
 }
 
 .links {
-  min-height: 200px;
   display: flex;
   color: white;
   justify-content: space-around;
   width: 35%;
   font-size: 13px;
+  gap: 2rem;
 }
 
 .dc-comics > ul,
