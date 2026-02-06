@@ -77,9 +77,6 @@ const footerItems = [
       { name: "Shop DC Collectibles", url: "#" },
     ],
   },
-];
-
-const aboutUs = [
   {
     title: "dc",
     links: [
@@ -115,7 +112,7 @@ export default function App() {
       <Header links={navbarLinks} />
       <Main />
       <Banner />
-      <Footer items={footerItems} infos={aboutUs} />
+      <Footer items={footerItems} />
     </>
   );
 }

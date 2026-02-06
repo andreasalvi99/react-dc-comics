@@ -149,6 +149,11 @@ header {
   width: 35%;
   font-size: 13px;
   gap: 2rem;
+  max-height: 350px;
+}
+
+.linkss {
+  max-height: 350px;
 }
 
 .dc-comics > ul,
