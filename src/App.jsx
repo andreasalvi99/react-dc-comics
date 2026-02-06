@@ -56,56 +56,6 @@ const navbarLinks = [
   },
 ];
 
-const footerItems = [
-  {
-    title: "dc comics",
-    links: [
-      { name: "Characters", url: "#" },
-      { name: "Comics", url: "#" },
-      { name: "Movies", url: "#" },
-      { name: "TV", url: "#" },
-
-      { name: "Games", url: "#" },
-      { name: "Videos", url: "#" },
-      { name: "News", url: "#" },
-    ],
-  },
-  {
-    title: "shop",
-    links: [
-      { name: "Shop DC", url: "#" },
-      { name: "Shop DC Collectibles", url: "#" },
-    ],
-  },
-  {
-    title: "dc",
-    links: [
-      { name: "Terms Of Use", url: "#" },
-
-      { name: "Privacy Policy (New)", url: "#" },
-      { name: "Ad Choices", url: "#" },
-      { name: "Advertising", url: "#" },
-      { name: "Jobs", url: "#" },
-      { name: "Subscriptions", url: "#" },
-      { name: "Talent Workshops", url: "#" },
-      { name: "CPSC Certificate", url: "#" },
-      { name: "Ratings", url: "#" },
-      { name: "Shop Help", url: "#" },
-      { name: "Contact Us", url: "#" },
-    ],
-  },
-  {
-    title: "sites",
-    links: [
-      { name: "DC", url: "#" },
-      { name: "MAD Magazine", url: "#" },
-      { name: "DC Kids", url: "#" },
-      { name: "DC Universe", url: "#" },
-      { name: "DC Power Visa", url: "#" },
-    ],
-  },
-];
-
 const comics = [
   {
     id: 1,
@@ -280,6 +230,56 @@ const comics = [
     type: "graphic novel",
     artists: ["Fernando Blanco", "Joëlle Jones"],
     writers: ["Joëlle Jones"],
+  },
+];
+
+const footerItems = [
+  {
+    title: "dc comics",
+    links: [
+      { name: "Characters", url: "#" },
+      { name: "Comics", url: "#" },
+      { name: "Movies", url: "#" },
+      { name: "TV", url: "#" },
+
+      { name: "Games", url: "#" },
+      { name: "Videos", url: "#" },
+      { name: "News", url: "#" },
+    ],
+  },
+  {
+    title: "shop",
+    links: [
+      { name: "Shop DC", url: "#" },
+      { name: "Shop DC Collectibles", url: "#" },
+    ],
+  },
+  {
+    title: "dc",
+    links: [
+      { name: "Terms Of Use", url: "#" },
+
+      { name: "Privacy Policy (New)", url: "#" },
+      { name: "Ad Choices", url: "#" },
+      { name: "Advertising", url: "#" },
+      { name: "Jobs", url: "#" },
+      { name: "Subscriptions", url: "#" },
+      { name: "Talent Workshops", url: "#" },
+      { name: "CPSC Certificate", url: "#" },
+      { name: "Ratings", url: "#" },
+      { name: "Shop Help", url: "#" },
+      { name: "Contact Us", url: "#" },
+    ],
+  },
+  {
+    title: "sites",
+    links: [
+      { name: "DC", url: "#" },
+      { name: "MAD Magazine", url: "#" },
+      { name: "DC Kids", url: "#" },
+      { name: "DC Universe", url: "#" },
+      { name: "DC Power Visa", url: "#" },
+    ],
   },
 ];
 
