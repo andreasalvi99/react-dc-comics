@@ -1,3 +1,5 @@
+import HeaderLinks from "./props/HeaderLinks";
+
 export default function Header({ links }) {
   return (
     <header>
@@ -7,17 +9,12 @@ export default function Header({ links }) {
       <div id="navbar" className="">
         <ul>
           {links.map((link, index) => (
-            <li
+            <HeaderLinks
               key={index}
-              className={"" + (link.isActive ? " active-bar" : "")}
-            >
-              <a
-                href={link.url}
-                className={"" + (link.isActive ? " active" : "")}
-              >
-                {link.title}
-              </a>
-            </li>
+              url={link.url}
+              isActive={link.isActive}
+              title={link.title}
+            />
           ))}
         </ul>
       </div>
