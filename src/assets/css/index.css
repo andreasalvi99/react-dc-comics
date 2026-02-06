@@ -8,6 +8,10 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+/** ROOT **/
+:root {
+  --primary-color: #0282f9;
+}
 
 /** Reset **/
 ul {
@@ -49,20 +53,20 @@ header {
 }
 
 #navbar > ul > li:hover {
-  color: #0282f9;
-  border-bottom: 4px solid #0282f9;
+  color: var(--primary-color);
+  border-bottom: 4px solid var(--primary-color);
 }
 
 #navbar > ul > li:hover a {
-  color: #0282f9;
+  color: var(--primary-color);
 }
 
 .active {
-  color: #0282f9;
+  color: var(--primary-color);
 }
 
 .active-bar {
-  border-bottom: 4px solid #0282f9;
+  border-bottom: 4px solid var(--primary-color);
 }
 /** Main **/
 
@@ -76,7 +80,7 @@ header {
 
 #jumbotron > button {
   position: absolute;
-  background-color: #0282f9;
+  background-color: var(--primary-color);
   font-size: 23px;
   font-weight: bolder;
   width: 250px;
@@ -88,7 +92,7 @@ header {
 
 #comics > button {
   width: 250px;
-  background-color: #0282f9;
+  background-color: var(--primary-color);
   font-weight: bold;
   font-size: 20px;
   border: none;
