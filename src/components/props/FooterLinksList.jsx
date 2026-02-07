@@ -23,7 +23,7 @@ export default function FooterLinksList({ elements }) {
           </div>
 
           <div className="bg-img">
-            <img src="/public/dc-logo-bg.png" alt="" />
+            <img src="dc-logo-bg.png" alt="" />
           </div>
         </div>
       </section>
