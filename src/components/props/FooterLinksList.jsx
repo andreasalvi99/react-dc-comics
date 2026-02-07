@@ -38,10 +38,10 @@ export default function FooterLinksList({ elements }) {
             <p className="text-primary fw-bold w-100 fs-4">FOLLOW US</p>
             <ul>
               <li>
-                <img src="/footer-facebook.png" alt="" />
+                <img src="footer-facebook.png" alt="" />
               </li>
               <li>
-                <img src="/footer-twitter.png" alt="" />
+                <img src="footer-twitter.png" alt="" />
               </li>
               <li>
                 <img src="footer-youtube.png" alt="" />

@@ -4,7 +4,7 @@ export default function HeaderLinksList({ items }) {
   return (
     <>
       <div id="dc-logo" className="py-3">
-        <img src="/public/dc-logo.png" alt="dc-logo" />
+        <img src="dc-logo.png" alt="dc-logo" />
       </div>
       <div id="navbar" className="">
         <ul>
